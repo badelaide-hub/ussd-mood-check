@@ -3,7 +3,7 @@
 Simple two-screen USSD app built with Flask for Nalo Solutions.
 
 - **USSD Code:** *920*2024#
-- **Endpoint:** https://your-app-name.onrender.com/ussd
+- **Endpoint:** [https://your-app-name.onrender.com/ussd](https://ussd-mood-check.onrender.com)
 
 ### USSD Session Notes
 - Max characters per screen: 160–182 characters (Nalo recommends keeping `MSG` under 120–160 characters)
