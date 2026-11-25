@@ -44,7 +44,6 @@ def ussd():
                 continue_session = False
 
         elif step == 2:
-            sessions.pop(session_id, None)
             if user_data == "1":
                 msg = "Noted: Relationship issues. Communication is key."
             elif user_data == "2":
@@ -54,6 +53,7 @@ def ussd():
             else:
                 msg = "Invalid selection."
             continue_session = False
+            sessions.pop(session_id, None)
 
         else:
             sessions.pop(session_id, None)
